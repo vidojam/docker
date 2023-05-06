@@ -5,7 +5,7 @@ FROM node:18-alpine3.16
 WORKDIR /src
 
 # copy our code from the host machine into the docker image
-copy ..
+Copy . .
 
 # install our dependencies
 RUN npm install
